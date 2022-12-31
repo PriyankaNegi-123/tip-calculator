@@ -12,7 +12,7 @@ body{
     justify-content: center;
     align-items: center;
     font-family: 'Bree Serif', serif;
-    background-image: linear-gradient(to right top,rgb(78, 18, 64), rgb(219, 80, 103), rgb(205, 140, 20)) ;
+    background-image: linear-gradient(to right top,rgb(27, 73, 191), rgb(174, 46, 149), rgb(205, 140, 20)) ;
 }
 
 h1{
@@ -46,6 +46,7 @@ input, select{
     font-size: 0.9rem;
     border-radius: 6px;
     border: none;
+    background-color: white;
 }
 
 .btn{
@@ -82,4 +83,19 @@ input, select{
     color: black;
     font-weight:bold;
     transition: 0.6s ease all;
+}
+
+@media (max-width: 470px){
+    .container{
+        max-width: 350px;
+        width: 340px;
+        margin-top: 2rem;
+    }
+    .btn2{
+        margin-left: 4rem;
+    }
+    main{
+        height: 90vh;
+        margin-top: 5rem;
+    }
 }
