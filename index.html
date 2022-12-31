@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main>
+        <h1>Tip Calculator</h1>
+        <div class="container">
+            <label for="bill_amount">Bill Amount</label>
+            <input type="number" id ="bill_amount">
+            <br>
+            <label for="tip_perc">Tip Percentage</label>
+            <select name="tip_perc" id="tip_perc">
+                <option value="">Select</option>
+                <option value="25">25% - Excellent Service</option>
+                <option value="15">15% - Good</option>
+                <option value="10">10% - It was OK</option>
+            </select>
+            <br>
+            <label for="tip">Tip</label>
+            <input type="number" id ="tip" disabled>
+            <br>
+            <label for="total">Total Bill Amount</label>
+            <input type="number" id ="total" disabled>
+            <br>
+            <button class="btn btn1" id ="btn" onclick="calculate()">Calculate</button>
+            <button class="btn btn2" id ="btn2"  onclick="clearInp()">Clear</button>
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>

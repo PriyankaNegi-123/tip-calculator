@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Rubik+Microbe&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bree Serif', serif;
+    background-image: linear-gradient(to right top,rgb(78, 18, 64), rgb(219, 80, 103), rgb(205, 140, 20)) ;
+}
+
+h1{
+    text-align: center;
+    letter-spacing: 1.9px;
+    margin-bottom: 1rem;
+    text-shadow: 1px 2px 20px white;
+}
+
+.container{
+    max-width: 500px;
+    width: 420px;
+    height: auto;
+    padding: 1rem 2rem 3rem;
+    background-color: rgb(218, 175, 94);
+    border-radius: 9px;
+    box-shadow: 1px 2px 20px 2px black;
+}
+
+label{
+    display: block;
+    margin-top: 1rem;
+    font-size: 1.093rem;
+    letter-spacing: 0.6px;
+    text-shadow: 1px 2px 20px white;
+}
+
+input, select{
+    width: 100%;
+    padding: 8px;
+    font-size: 0.9rem;
+    border-radius: 6px;
+    border: none;
+}
+
+.btn{
+    margin-top: 1.2rem;
+    padding: 7px 15px;
+    background-color: rgb(9, 53, 5);
+    border: 2px solid white;
+    box-shadow: 1px 2px 10px black;
+    border-radius: 0.4rem;
+    color: white;
+    font-size: 1.4rem;
+}
+
+.btn2{
+    background-color: red;
+    margin-left: 9rem;
+    padding: 5px 15px;
+    border-radius: 4rem;
+    font-size: 1rem;
+    box-shadow: 1px 2px 10px white;
+    border: 2px solid red;
+}
+
+.btn1:hover{
+    cursor: pointer;
+    background-color: aqua;
+    color: black;
+    border-color: black;
+    transition: 0.6s ease all;
+}
+
+.btn2:hover{
+    cursor: pointer;
+    color: black;
+    font-weight:bold;
+    transition: 0.6s ease all;
+}
